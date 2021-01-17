@@ -1,0 +1,42 @@
+* {  /* Simple reset function, just so that it doesn't look too different on other browsers */
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    text-align: center;
+}
+
+.store {
+    float: right;
+    margin: -100px 100px;
+}
+
+.store ul p {
+    text-decoration: none;
+    display: inline;
+}
+
+.store ul button {
+    margin: 0 0 0 10px;
+}
+
+#btn-update {
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #008CBA;
+    text-decoration: none;
+    border-style: outset;
+}
+
+#btn-update:hover {
+    background-color: #008CFF;
+}
+
+#btn-update:active {
+    outline: none;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;  /* All the below are for the button animation ^^ */
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+}

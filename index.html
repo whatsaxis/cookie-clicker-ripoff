@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Counter</title>
+    </head>
+    <body>
+        <div class="main-container">
+            <button id="btn-update" onclick="manualClick()">Update Button</button>
+            <p id="pps-display">Points Per Second: 0</p>
+            <p id="btn-num-display">Points: 0</p>
+        </div>
+
+        <div class="store container">
+            <h2>Store:</h2>
+            <ul>
+                <li>
+                    <p>Pointer: 10 points</p><button onclick="buy(shop_list['Pointer'])">Buy</button>
+                </li>
+            </ul>
+        </div>
+    </body>
+    <script src="script.js"></script>
+    <!-- <script src="timer.js"></script> -->
+</html>
