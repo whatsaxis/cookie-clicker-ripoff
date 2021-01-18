@@ -9,7 +9,7 @@
 
 .store {
     float: right;
-    margin: -100px 100px;
+    margin: -100px 150px;
 }
 
 .store ul p {
@@ -19,6 +19,10 @@
 
 .store ul button {
     margin: 0 0 0 10px;
+}
+
+.store li {
+    list-style-type: none;
 }
 
 #btn-update {
