@@ -13,15 +13,24 @@
             <p id="btn-num-display">Points: 0</p>
         </div>
 
-        <div class="store container">
+        <div class="store">
             <h2>Store:</h2>
             <ul>
                 <li>
-                    <p>Pointer: 10 points</p><button onclick="buy(shop_list['Pointer'])">Buy</button>
+                    <p>Pointer - +1 PPS: 25 points</p><button onclick="buy_worker(shop_list['Pointer'])">Buy</button><br>
+                    <p>Group of Pointers - +5 PPS: 100 points</p><button onclick="buy_worker(shop_list['Group of Pointers'])">Buy</button><br>
+                    <p>Autoclicker - +15 PPS: 250 points</p><button onclick="buy_worker(shop_list['Autoclicker'])">Buy</button><br>
+                </li>
+            </ul>
+            <br>
+            <h2>Upgrades:</h2>
+            <ul>
+                <li>
+                    <p>Stronger Fingers - 3 Points Per Click: 150 points</p><button id="1" onclick="buy_upgrade(upgrades_list['Stronger Fingers'])">Buy</button><br>
                 </li>
             </ul>
         </div>
     </body>
     <script src="script.js"></script>
-    <!-- <script src="timer.js"></script> -->
+    <script src="timer.js"></script>
 </html>
